@@ -4,7 +4,7 @@ agent any
 stages {
 stage('Build') {
 steps {
-sh 'g++ -o hello new.cpp'
+sh 'g++ -o hello working.cpp'
 }
 }
 
